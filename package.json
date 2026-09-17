@@ -1,0 +1,7 @@
+{
+  "name": "swift-bird-migration",
+  "version": "1.0.0",
+  "description": "A custom animated GitHub contribution graph — a bird flies across the days you committed code.",
+  "type": "module",
+  "main": "index.mjs"
+}

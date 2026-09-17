@@ -1,0 +1,33 @@
+name: Swift Bird Migration
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # once a day at midnight UTC
+  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate flight animation
+        uses: ./
+        env:
+          GH_TOKEN: ${{ secrets.SWIFTBIRD_TOKEN }}
+          GH_USERNAME: t1chita
+          OUTPUT_PATH: dist/swiftbird.svg
+          PALETTE: light
+
+      - name: Commit updated animation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/swiftbird.svg
+          git diff --staged --quiet || git commit -m "Update Swift Bird Migration animation"
+          git push

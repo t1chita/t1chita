@@ -1,0 +1,5 @@
+name: "Swift Bird Migration"
+description: "Renders your GitHub contribution graph as an animated bird flight (reads GH_TOKEN, GH_USERNAME, OUTPUT_PATH, PALETTE from the environment — set them in the calling workflow step, see .github/workflows/swiftbird.yml)"
+runs:
+  using: "node20"
+  main: "index.mjs"
