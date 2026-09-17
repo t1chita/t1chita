@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/t1chita/t1chita/main/dist/swiftbird.svg" alt="Swift Bird Migration — a bird flying across my contribution graph">
 </p>
 
-# Temuri Chitashvili (Temuka)
+# Temuri Chitashvili (Temo)
 
 iOS Developer based in Tbilisi, Georgia 🇬🇪 — building fintech software by day, indie apps by night.
 
