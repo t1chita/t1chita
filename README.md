@@ -17,7 +17,6 @@ iOS Developer based in Tbilisi, Georgia 🇬🇪 — building fintech software b
 - 💼 Full-time iOS Developer at **TBC Uzbekistan**, building the **SpaceBank** business banking app (since May 2025)
 - 🎓 Finishing my Computer Science degree at **Tbilisi State University** (graduating 2026)
 - 🛠️ Shipping indie iOS/macOS apps on the side and documenting the process in public
-- 📍 Open to fully remote roles outside fintech, ideally based out of Tallinn, Estonia
 
 ---
 
